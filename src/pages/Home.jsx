@@ -3,10 +3,10 @@ import { AnimatePresence, motion } from "framer-motion"
 
 
 const links = [
-    { name: 'Open roles', href: '/open-roles' },
-    { name: 'Internship program', href: '#' },
-    { name: 'Our values', href: '#' },
-    { name: 'Meet our leadership', href: '#' },
+    { name: 'Sign In', href: '/sign-in' },
+    { name: 'Sign Up', href: '/sign-up' },
+    // { name: 'Our values', href: '#' },
+    // { name: 'Meet our leadership', href: '#' },
   ]
   const stats = [
     { name: 'Offices worldwide', value: '12' },
