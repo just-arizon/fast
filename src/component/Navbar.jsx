@@ -14,7 +14,7 @@ import 'boxicons';
 import {Link, NavLink} from "react-router-dom";
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
+  { name: 'Home', href: '/', current: true },
   { name: 'Dashboard', href: '#', current: false },
   { name: 'Team', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
