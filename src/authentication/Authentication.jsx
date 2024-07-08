@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { AnimatePresence, motion } from "framer-motion";
 import Signin from './Signin';
 import Signup from './Signup';
 
-const Authentication = ({ initialMode }) => {
-  const [active, setActive] = useState(initialMode);
-
-  useEffect(() => {
-    setActive(initialMode);
-  }, [initialMode]);
+const Authentication = () => {
+  const [active, setActive] = useState("signin");
 
   const handleChange = () => {
     setActive(active === "signin" ? "signup" : "signin");
