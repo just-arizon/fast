@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import {Routes, Route} from 'react-router-dom'
 import NavBar from './component/Navbar'
+import Features from './component/Features'
 import SignIn from './authentication/Signin'
 import Authentication from './authentication/Authentication'
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/sign-in' element= {<Authentication />}/>
 
     </Routes>
+    <Features />
     </>
 
   )
