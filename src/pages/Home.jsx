@@ -76,7 +76,9 @@ const links = [
                     // duration: 0.5,
                     ease:"easeOut"
                 }}
-            className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">Work with us</motion.h1>
+            className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
+              Work with us
+              </motion.h1>
             <p className="mt-6 text-lg leading-8 text-white">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
               fugiat veniam occaecat fugiat aliqua.
