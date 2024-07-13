@@ -78,7 +78,7 @@ const links = [
                       // duration: 0.5,
                       ease:"easeOut"
                   }}
-              className="text-9xl font-bold tracking-tight text-pink-200 sm:text-6xl">
+              className="lg:text-9xl font-bold tracking-tight text-pink-200 text-5xl">
                 Work with us
                 </motion.h1>
               <p className="mt-6 text-lg leading-8 text-white">
