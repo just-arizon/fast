@@ -53,9 +53,9 @@ const links = [
             }}
           />
         </div>
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-between gap-28">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-between gap-2">
 
-          <div className="mx-auto max-w-6xl max-h-64 lg:mx-0 flex justify-between">
+          <div className="mx-auto max-w-6xl lg:mx-0 flex justify-between lg:flex-row flex-col">
             <div>
               <motion.h1
               initial={
@@ -78,14 +78,14 @@ const links = [
                       // duration: 0.5,
                       ease:"easeOut"
                   }}
-              className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
+              className="text-9xl font-bold tracking-tight text-pink-200 sm:text-6xl">
                 Work with us
                 </motion.h1>
               <p className="mt-6 text-lg leading-8 text-white">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
               </p>
-              <div className="grid grid-cols-1 gap-x-5 gap-y-6 text-base font-semibold leading-7 text-[#fff000] py-6 sm:grid-cols-2 md:flex lg:gap-x-10">
+              <div className="flex grid-cols-2 gap-x-5 gap-y-6 text-base font-semibold leading-7 text-[#fff000] py-6  md:flex lg:gap-x-10">
                 {links.map((link) => (
                     <a key={link.name} href={link.href}>
                       <Button variant='contained'>{link.name}<span aria-hidden="true">&rarr;</span>
@@ -94,16 +94,18 @@ const links = [
                 ))}
             </div>
             </div>
+
             <div>
-              <img src={MacBook} alt="image" srcset="" />
+              <img src={MacBook} alt="image" 
+               />
             </div>
           </div>
 
 
 
-          <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+          <div className="mx-auto mt-5 max-w-2xl lg:mx-0 lg:max-w-none">
         
-            <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4 ">
+            <dl className="mt-4 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4 ">
               {stats.map((stat) => (
                 <div key={stat.name} className="flex flex-col-reverse">
                   <dt className="text-base leading-7 text-white">{stat.name}</dt>
