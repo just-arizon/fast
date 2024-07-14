@@ -1,7 +1,7 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion"
 import Button from '@mui/material/Button';
-import MacBook from '../../public/Macbook Pro Render.png'
+import MacBook from '../assets/Macbook Pro Render.png'
 const links = [
     { name: 'Sign In', href: '/sign-in' },
     { name: 'Sign Up', href: '/sign-up' },

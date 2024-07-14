@@ -1,4 +1,7 @@
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import viteImage from '../assets/vite.svg';
+import presentationImage from '../assets/presentation-seo-and-web-svgrepo-com.svg';
+import emailImage from '../assets/email-message-mail-envelope-svgrepo-com.svg';
 
 const features = [
     {
@@ -6,21 +9,21 @@ const features = [
       description:
         "ConnectGrid ensures your audience sees everything about you at a glance. No more juggling multiple links.",
       href: "#",
-      img: "./public/vite.svg",
+      img: viteImage,
     },
     {
       name: "Performance Analytics",
       description:
         "Track the performance of your ConnectGrid with insightful analytics. Understand what captures your audience's attention.",
       href: "#",
-      img: "./public/presentation-seo-and-web-svgrepo-com.svg",
+      img: presentationImage,
     },
     {
       name: "Email Collection",
       description:
         "Build your community directly through ConnectGrid! Collect audience emails effortlessly, expand your reach, and stay connected with your followers.",
       href: "#",
-      img: "./public/email-message-mail-envelope-svgrepo-com.svg",
+      img: emailImage,
     },
   ];
 
