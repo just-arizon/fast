@@ -1,3 +1,5 @@
+import { MdOutlineMarkEmailRead } from "react-icons/md";
+
 const features = [
     {
       name: "Comprehensive Visibility",
@@ -11,14 +13,14 @@ const features = [
       description:
         "Track the performance of your ConnectGrid with insightful analytics. Understand what captures your audience's attention.",
       href: "#",
-      img: "./public/vite.svg",
+      img: "./public/presentation-seo-and-web-svgrepo-com.svg",
     },
     {
       name: "Email Collection",
       description:
         "Build your community directly through ConnectGrid! Collect audience emails effortlessly, expand your reach, and stay connected with your followers.",
       href: "#",
-      img: "./public/vite.svg",
+      img: "./public/email-message-mail-envelope-svgrepo-com.svg",
     },
   ];
 
@@ -30,7 +32,7 @@ export default function Features () {
             <h2 className="text-center text-4xl font-bold text-black">
               Features
             </h2>
-            <p className="text-center mt-5 font-medium max-w-[35rem] ml-auto mr-auto">
+            <p className="text-center mt-5 max-w-[35rem] ml-auto mr-auto">
               Explore a unified platform where you can effortlessly showcase your
               portfolio, social profiles, and latest updates — all in one link.
             </p>
@@ -64,7 +66,7 @@ export default function Features () {
             </dl>
           </div>
           <div className="mx-auto max-w-[54rem] text-center mt-20">
-            <h2 className="text-center text-clamp2 font-bold text-black">
+            <h2 className="text-center text-clamp2 font-bold text-black text-4xl">
               Why choose us?
             </h2>
             <p className="text-center mt-5 font-medium">
