@@ -47,10 +47,8 @@ export default function Features () {
                   <dt className="text-base text-center font-semibold leading-7 text-gray-900">
                     <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-lg relative">
                       <img
-                        unoptimized
                         src={feature.img}
                         alt={feature.name}
-                        fill
                         className="h-full w-full object-cover"
                       />
                     </div>
