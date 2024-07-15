@@ -1,7 +1,7 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion"
 import Button from '@mui/material/Button';
-import MacBook from '../assets/Macbook Pro Render.png'
+import MacBook from '../assets/Macbook Pro Render (2).png'
 const links = [
     { name: 'Sign In', href: '/sign-in' },
     { name: 'Sign Up', href: '/sign-up' },
@@ -55,14 +55,14 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-between gap-2">
 
-          <div className="mx-auto max-w-6xl lg:mx-0 flex justify-between lg:flex-row flex-col">
-            <div>
+          <motion.div className="mx-auto max-w-6xl lg:mx-0 flex justify-between lg:flex-row flex-col">
+            <motion.div>
               <motion.h1
               initial={
                   {
                       y: 100,
                       opacity: 0,
-                        scale: 0.9,
+                        scale: 0.7,
                   }}
                   animate={{
                       y: 0,
@@ -76,7 +76,7 @@ const links = [
                   // }}
                   transition={{
                       // duration: 0.5,
-                      ease:"easeOut"
+                      ease:"easeIn"
                   }}
               className="lg:text-9xl font-bold tracking-tight text-pink-200 text-5xl">
                 Work with us
@@ -93,13 +93,13 @@ const links = [
                     </a>
                 ))}
             </div>
-            </div>
+            </motion.div>
 
             <div>
               <img src={MacBook} alt="image" 
                />
             </div>
-          </div>
+          </motion.div>
 
 
 
