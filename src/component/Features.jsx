@@ -32,6 +32,7 @@ export default function Features () {
         <div id="features" className="bg-[] py-7 md:py-12 w-full">
         <div className="px-6 lg:px-8">
           <div className="mx-auto max-w-[1100px] text-center ml-auto mr-auto">
+            <p className="text-sm text-gray-300 my-5">what you benefit</p>
             <h2 className="text-center text-4xl font-bold text-black">
               Features
             </h2>

@@ -5,8 +5,9 @@ import About from './pages/About'
 import {Routes, Route} from 'react-router-dom'
 import NavBar from './component/Navbar'
 import Features from './component/Features'
-import SignIn from './authentication/Signin'
-import Authentication from './authentication/Authentication'
+
+import Signin from './authentication/Signin'
+// import Authentication from './authentication/Authentication'
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -16,7 +17,7 @@ function App() {
     <Routes>
       <Route path='/' element= {<Home />}/>
       <Route path='/about' element= {<About />}/>
-      <Route path='/sign-in' element= {<Authentication />}/>
+      <Route path='/sign-in' element= {<Signin />}/>
 
     </Routes>
     <Features />
