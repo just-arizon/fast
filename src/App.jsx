@@ -6,7 +6,7 @@ import {Routes, Route} from 'react-router-dom'
 import NavBar from './component/Navbar'
 import Features from './component/Features'
 
-import Signin from './authentication/Signin'
+import Signin from './component/Signin'
 // import Authentication from './authentication/Authentication'
 function App() {
   // const [count, setCount] = useState(0)
