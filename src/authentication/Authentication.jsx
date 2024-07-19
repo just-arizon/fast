@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from "framer-motion";
-import Signin from '../component/Signin';
+import Signin from './Signin';
 import Signup from './Signup';
 
 const Authentication = () => {

@@ -6,10 +6,8 @@ import {Routes, Route} from 'react-router-dom'
 import NavBar from './component/Navbar'
 import Features from './component/Features'
 
-import Signin from './component/Signin'
-// import Authentication from './authentication/Authentication'
+import Authentication from './authentication/Authentication'
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,10 +15,11 @@ function App() {
     <Routes>
       <Route path='/' element= {<Home />}/>
       <Route path='/about' element= {<About />}/>
-      <Route path='/sign-in' element= {<Signin />}/>
+      <Route path='/sign-in' element= {<Authentication />}/>
 
     </Routes>
     <Features />
+    <Authentication />
     </>
 
   )
